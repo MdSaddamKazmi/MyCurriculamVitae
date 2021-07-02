@@ -23,7 +23,7 @@
 						<l:BlockLayoutRow>
 							<l:BlockLayoutCell >
 								<FlexBox justifyContent="Center" class="responsive">
-									<Avatar src="./images/download.png" displaySize="XL"/>
+									<Avatar src="../images/download.png" displaySize="XL"/>
 								</FlexBox>
 								<FlexBox justifyContent="Center" class="responsive myBoldFont">
 									<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
@@ -142,7 +142,7 @@
 													<Text text="* Worked on objects of SNC,APO,PI and BW"/>
 													<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
 													<Text text="* Currently working on SM(Settlement Management)"/>
-													<Text text="* Can setup the system for SD/MM from scratch)"/>
+													<Text text="* Can setup the system for SD/MM from scratch"/>
 													<Text text="* Worked on SPRO/WLFA settings"/>
 												</VBox>
 											</forms:SimpleForm>
@@ -158,7 +158,7 @@
 												<VBox>
 													<Text text="July'12 to Jun'16" class="myTextSize"/>
 													<Text text=""/>
-													<Text text="Worked in Byd and currently working in S4 Hana Settlement management team"/>
+													<Text text="Worked in Byd team"/>
 												</VBox>
 											</forms:SimpleForm>
 										</uxap:blocks>
@@ -180,7 +180,7 @@
 												<VBox>
 													<Text text="Nov'16 to Present" class="myTextSize"/>
 													<Text text=""/>
-													<Text text="Worked in ABInbev and U2K2 projects"/>
+													<Text text="Worked in AbInbev and U2K2 projects"/>
 												</VBox>
 											</forms:SimpleForm>
 										</uxap:blocks>
@@ -268,7 +268,7 @@
 										<uxap:blocks>
 											<forms:SimpleForm editable="false" layout="ColumnLayout">
 												<VBox>
-													<Text text="* Created a UI5 app to check the Covid Vaccine AVailability"/>
+													<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
 													<Text text="* Working on eDocuments for settlement management"/>
 													<Text text="* Setup a new system for SD and FI edocuments"/>
 												</VBox>
