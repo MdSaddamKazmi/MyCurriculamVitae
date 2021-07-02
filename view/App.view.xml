@@ -23,7 +23,7 @@
 						<l:BlockLayoutRow>
 							<l:BlockLayoutCell >
 								<FlexBox justifyContent="Center" class="responsive">
-									<Avatar src="../images/download.png" displaySize="XL"/>
+									<Avatar src="./images/download.png" displaySize="XL"/>
 								</FlexBox>
 								<FlexBox justifyContent="Center" class="responsive myBoldFont">
 									<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
