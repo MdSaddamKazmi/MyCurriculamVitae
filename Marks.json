@@ -1,0 +1,23 @@
+{
+	"Marks": [{
+			"Exam": "B.Tech",
+			"Board": "WBUT",
+			"Percentage": "8.51",
+			"Class": "1st.",
+			"Year": "2012"
+		}, {
+			"Exam": "12th",
+			"Board": "CBSE",
+			"Percentage": "80.80",
+			"Class": "1st",
+			"Year": "2008"
+		}, {
+			"Exam": "10th",
+			"Board": "CBSE",
+			"Percentage": "85.83",
+			"Class": "1st",
+			"Year": "2006"
+		}
+
+	]
+}

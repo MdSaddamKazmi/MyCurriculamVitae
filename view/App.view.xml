@@ -1,0 +1,302 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout" xmlns:uxap="sap.uxap"
+	xmlns:forms="sap.ui.layout.form" xmlns:microchart="sap.suite.ui.microchart" xmlns:viz="sap.viz.ui5.controls"
+	controllerName="my.Test.controller.App" height="100%">
+	<Shell>
+		<App id="App">
+			<pages>
+				<Page class="myColor responsive" showHeader="false">
+					<tnt:ToolHeader width="100%">
+						<!--<Button icon="sap-icon://menu2" type="Transparent"/>-->
+						<Image src="https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg"/>
+						<Text text="My CV" wrapping="false"/>
+						<ToolbarSpacer/>
+						<!--<Button icon="sap-icon://search" type="Transparent"/>-->
+						<!--<Button icon="sap-icon://task" type="Transparent"/>-->
+						<!--<Button icon="sap-icon://bell" type="Transparent"/>-->
+						<Avatar src="https://img.icons8.com/fluent/48/000000/linkedin.png" displaySize="XS" press=".onAvatarPressed"/>
+					</tnt:ToolHeader>
+					<!--<content>-->
+					<!--<Panel width="auto" class="sapUiResponsiveMargin">-->
+					<!--<FlexBox justifyContent="Center" class="responsive">-->
+					<!--</FlexBox>-->
+					<l:BlockLayout id="BlockLayout" background="Dashboard">
+						<l:BlockLayoutRow>
+							<l:BlockLayoutCell >
+								<FlexBox justifyContent="Center" class="responsive">
+									<Avatar src="../images/download.png" displaySize="XL"/>
+								</FlexBox>
+								<FlexBox justifyContent="Center" class="responsive myBoldFont">
+									<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
+										<FlexBox justifyContent="Center" class="responsive">
+											<Text text="Md Saddam Kazmi"/>
+										</FlexBox>
+										<FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>
+										<FlexBox justifyContent="Center" class="responsive">
+											<Text text="+91 9739074686"/></FlexBox>
+									</l:VerticalLayout>
+								</FlexBox>
+							</l:BlockLayoutCell>
+							<!--<l:BlockLayoutCell title="Current Status :" titleAlignment="Center">-->
+							<!--	<Text id="text3" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text4" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text5" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text6" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text7" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text8" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text9" wrappingType="Hyphenated" text=""/>-->
+							<!--	<Text id="text10" wrappingType="Hyphenated" text=""/>-->
+							<!--	<FlexBox justifyContent="Center" 	alignItems="Center" class="responsive">-->
+							<!--		<Text id="text1" wrappingType="Hyphenated" text="Company : SAP LABS"/>-->
+							<!--	</FlexBox>-->
+							<!--	<FlexBox justifyContent="Center" 	alignItems="Center" class="responsive">-->
+							<!--		<Text id="text2" wrappingType="Hyphenated" text="Notice Period : 60 days"/>-->
+							<!--	</FlexBox>-->
+							<!--</l:BlockLayoutCell>-->
+							<!--<l:BlockLayoutCell title="Asynchronous (async) processing">-->
+							<!--	<Text id="text3" wrappingType="Hyphenated"-->
+							<!--		text="In contrast to synchronous processing this processing mode does not keep the browser thread busy but does the processing in the background and continues with the next task. Code can be executed asynchronously and a callback function is triggered when a certain condition is met. Similarly, a file can be loaded asynchronously. Asynchronous processing is highly recommended for performance reasons and to not freeze the UI."/>-->
+							<!--</l:BlockLayoutCell>-->
+							<!--<l:BlockLayoutCell title="Bootstrap">-->
+							<!--	<Text id="text4" wrappingType="Hyphenated"-->
+							<!--		text="To use the UI5 features in your web page, you have to load and initialize – or bootstrap – the UI5 runtime in your HTML page."/>-->
+							<!--</l:BlockLayoutCell>-->
+						</l:BlockLayoutRow>
+					</l:BlockLayout>
+					<l:BlockLayout id="BlockLayout1" background="Dashboard">
+						<l:BlockLayoutRow>
+							<l:BlockLayoutCell title="Personal Details:">
+								<FlexBox justifyContent="Start" class="responsive" alignItems="Center">
+									<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
+										<FlexBox justifyContent="Start" class="responsive ">
+											<Text
+												text="I have total 9 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade and support projects."/>
+										</FlexBox>
+										<!--<FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>-->
+									</l:VerticalLayout>
+								</FlexBox>
+							</l:BlockLayoutCell>
+						</l:BlockLayoutRow>
+					</l:BlockLayout>
+					<!--<Text text="Saddam"/>-->
+					<!--</Panel>-->
+					<!--<Panel>-->
+					<uxap:ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false">
+						<!--<uxap:headerTitle>-->
+						<!--	<uxap:ObjectPageDynamicHeaderTitle>-->
+						<!--		<uxap:expandedHeading>-->
+						<!--			<HBox>-->
+						<!--				<Title text="Denise Smith" wrapping="true"/>-->
+						<!--				<ObjectMarker type="Favorite" class="sapUiTinyMarginBegin"/>-->
+						<!--			</HBox>-->
+						<!--		</uxap:expandedHeading>-->
+						<!--	</uxap:ObjectPageDynamicHeaderTitle>-->
+						<!--<uxap:ObjectPageHeader objectTitle="ObjectPageSubSection with hidden title"-->
+						<!--	objectSubtitle="This example demonstrates the showTitle property set to false."/>-->
+						<!--</uxap:headerTitle>-->
+						<!--<uxap:headerContent>-->
+						<!--<Panel>-->
+						<!--<content>-->
+						<!--	<FlexBox justifyContent="Center">-->
+						<!--		<Avatar src="https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg" displaySize="XL"/>-->
+						<!--		<Text text="Md Saddam Kazmi"/>-->
+						<!--		<Text text="saddamkazmi25@gmail.com"/>-->
+						<!--		<Text text="+33 6 4512 5158"/>-->
+						<!--	</FlexBox>-->
+						<!--<content>-->
+						<!--</Panel>-->
+						<!--</uxap:headerContent>-->
+						<uxap:sections>
+							<uxap:ObjectPageSection titleUppercase="false" title="Skills ">
+								<uxap:subSections>
+									<uxap:ObjectPageSubSection title="Personal Skills" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="HorizontalLayout">
+												<!--<Label text="Country"/>-->
+												<VBox>
+													<Text text="* Goal Oriented"/>
+													<Text text="* Able to perform under pressure "/>
+													<Text text="* Capable to learn new technology very fast"/>
+													<Text text="* Have strong analytical problem solving abilities"/>
+													<Text text="* Strong Team Player with excellent skills to handle a team"/>
+													<Text text="* An effective communicator"/>
+												</VBox>
+												<!--<Label text="Subsidiary"/>-->
+												<!--<Text text="SAP France"/>-->
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Technical Skills" titleUppercase="false">
+										<uxap:blocks>
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+											<FlexBox justifyContent="Center" class="responsive ">
+												<viz:VizFrame xmlns="sap.viz" id="idcolumn" vizProperties="{ title: {text : 'Knowledge of Technical Skills', visible : true}}"></viz:VizFrame>
+											</FlexBox>
+											<!--</forms:SimpleForm>-->
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Functional Skills" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<VBox>
+													<Text text="* Well aware of the functional flow of SD,MM and FI"/>
+													<Text text="* Worked on objects of SNC,APO,PI and BW"/>
+													<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
+													<Text text="* Currently working on SM(Settlement Management)"/>
+													<Text text="* Can setup the system for SD/MM from scratch)"/>
+													<Text text="* Worked on SPRO/WLFA settings"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+								</uxap:subSections>
+							</uxap:ObjectPageSection>
+							<uxap:ObjectPageSection titleUppercase="false" title="Experience">
+								<uxap:subSections>
+									<uxap:ObjectPageSubSection title="SAP Labs" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<VBox>
+													<Text text="July'12 to Jun'16" class="myTextSize"/>
+													<Text text=""/>
+													<Text text="France"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Shell Petroleum" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<VBox>
+													<Text text="July'16 to Nov'16" class="myTextSize"/>
+													<Text text=""/>
+													<Text text="test"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Accenture" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<VBox>
+													<Text text="Nov'16 to Present" class="myTextSize"/>
+													<Text text=""/>
+													<Text text="AppHaus"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+								</uxap:subSections>
+							</uxap:ObjectPageSection>
+							<uxap:ObjectPageSection titleUppercase="false" title="Education">
+								<uxap:subSections>
+									<uxap:ObjectPageSubSection title="Educational Marks">
+										<Table items="{mark>/Marks}">
+											<!--<headerToolbar>-->
+											<!--	<OverflowToolbar>-->
+											<!--		<content>-->
+											<!--			<Title text="Scholastics" level="H2"/>-->
+											<!--			<ToolbarSpacer/>-->
+											<!--		</content>-->
+											<!--	</OverflowToolbar>-->
+											<!--</headerToolbar>-->
+											<!--<infoToolbar>-->
+											<!--	<OverflowToolbar>-->
+											<!--		<Label text="Wide range of available products"/>-->
+											<!--	</OverflowToolbar>-->
+											<!--</infoToolbar>-->
+											<columns>
+												<Column >
+													<header>
+														<Text text="Exam"/>
+													</header>
+												</Column>
+												<Column minScreenWidth="Tablet" hAlign="Center">
+													<header>
+														<Text text="Board/University"/>
+													</header>
+												</Column>
+												<Column hAlign="Center">
+													<header>
+														<Text text="Percentage/CGPA"/>
+													</header>
+												</Column>
+												<Column minScreenWidth="Tablet" hAlign="Center">
+													<header>
+														<Text text="Class"/>
+													</header>
+												</Column>
+												<Column hAlign="Center">
+													<header>
+														<Text text="Year"/>
+													</header>
+												</Column>
+											</columns>
+											<ColumnListItem>
+												<Text text="{mark>Exam}"/>
+												<Text text="{mark>Board}"/>
+												<Text text="{mark>Percentage}"/>
+												<Text text="{mark>Class}"/>
+												<Text text="{mark>Year}"/>
+											</ColumnListItem>
+										</Table>
+									</uxap:ObjectPageSubSection >
+									<uxap:ObjectPageSubSection title="Educational Project" titleUppercase="false">
+										<uxap:blocks>
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+											<VBox>
+												<Text
+													text="* Training with BSNL from Dec 2010 to Jan 2011. The training gave an insight of how the telecommunication happens practically in our day to day life via electronic media. "/>
+												<Text text="* Microcontroller 8051 training in June 2011 with IETE (Institute of electronics and telecommunication engineers)."/>
+											</VBox>
+											<!--</forms:SimpleForm>-->
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+								</uxap:subSections>
+							</uxap:ObjectPageSection>
+							<uxap:ObjectPageSection titleUppercase="false" title="Current Status">
+								<uxap:subSections>
+									<uxap:ObjectPageSubSection title="Current Company" titleUppercase="false">
+										<uxap:blocks >
+											<forms:SimpleForm editable="false" layout="HorizontalLayout">
+												<VBox>
+													<Text text="* Currently working in SAP Labs"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Current Work" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<VBox>
+													<Text text="* Created a UI5 app to check the Covid Vaccine AVailability"/>
+													<Text text="* Working on eDocuments for settlement management"/>
+													<Text text="* Setup a new system for SD and FI edocuments"/>
+												</VBox>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Current Location" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Current Notice Period" titleUppercase="false">
+										<uxap:blocks>
+											<forms:SimpleForm editable="false" layout="ColumnLayout">
+												<Text text="* Notice Period is 60 days"/>
+											</forms:SimpleForm>
+										</uxap:blocks>
+									</uxap:ObjectPageSubSection>
+								</uxap:subSections>
+							</uxap:ObjectPageSection>
+						</uxap:sections>
+					</uxap:ObjectPageLayout>
+					<!--</Panel>-->
+					<!--</content>-->
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
