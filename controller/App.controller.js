@@ -1,8 +1,9 @@
 sap.ui.define([
 	'sap/ui/core/mvc/Controller',
 	'sap/m/MessageToast',
-	'sap/m/library'
-], function (Controller, MessageToast, library) {
+	'sap/m/library',
+	"sap/ui/core/Fragment"
+], function (Controller, MessageToast, library, Fragment) {
 	"use strict";
 
 	return Controller.extend("my.Test.controller.App", {
@@ -11,6 +12,20 @@ sap.ui.define([
 			// MessageToast.show("Avatar pressed!");
 			window.open("https://www.linkedin.com/in/saddam-kazmi-363086115/", "_blank");
 		},
+
+		onDisplayCV: function (oEvent) {
+
+		// 	this._Dialog = sap.ui.xmlfragment("my.Test.view.HelloDialog", this);
+		// 	this._Dialog.open();
+		
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("detail");
+
+		},
+
+		// onClose: function () {
+		// 	this._Dialog.close();
+		// },
 
 		onInit: function () {
 
