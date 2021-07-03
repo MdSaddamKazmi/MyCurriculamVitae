@@ -10,7 +10,7 @@
 						<Image src="https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg.adapt.svg/1493030643828.svg"/>
 						<Text text="My CV" wrapping="false"/>
 						<ToolbarSpacer/>
-						<!--<Button icon="sap-icon://search" type="Transparent"/>-->
+						<Button icon="sap-icon://pdf-reader" type="Transparent" press=".onDisplayCV" tooltip="Display my CV"/>
 						<!--<Button icon="sap-icon://task" type="Transparent"/>-->
 						<!--<Button icon="sap-icon://bell" type="Transparent"/>-->
 						<Avatar src="https://img.icons8.com/fluent/48/000000/linkedin.png" displaySize="XS" press=".onAvatarPressed"/>
@@ -109,21 +109,21 @@
 							<uxap:ObjectPageSection titleUppercase="false" title="Skills ">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Personal Skills" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
-											<!--<Label text="Country"/>-->
-											<VBox>
-												<Text text="* Goal Oriented"/>
-												<Text text="* Able to perform under pressure "/>
-												<Text text="* Capable to learn new technology very fast"/>
-												<Text text="* Have strong analytical problem solving abilities"/>
-												<Text text="* Strong Team Player with excellent skills to handle a team"/>
-												<Text text="* An effective communicator"/>
-											</VBox>
-											<!--<Label text="Subsidiary"/>-->
-											<!--<Text text="SAP France"/>-->
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
+										<!--<Label text="Country"/>-->
+										<VBox>
+											<Text text="* Goal Oriented"/>
+											<Text text="* Able to perform under pressure "/>
+											<Text text="* Capable to learn new technology very fast"/>
+											<Text text="* Have strong analytical problem solving abilities"/>
+											<Text text="* Strong Team Player with excellent skills to handle a team"/>
+											<Text text="* An effective communicator"/>
+										</VBox>
+										<!--<Label text="Subsidiary"/>-->
+										<!--<Text text="SAP France"/>-->
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<!--<uxap:ObjectPageSubSection title="Technical Skills" titleUppercase="false">-->
 									<!--<uxap:blocks>-->
@@ -160,55 +160,55 @@
 										</l:FixFlex>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Functional Skills" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text text="* Well aware of the functional flow of SD,MM and FI"/>
-												<Text text="* Worked on objects of SNC,APO,PI and BW"/>
-												<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
-												<Text text="* Currently working on SM(Settlement Management)"/>
-												<Text text="* Can setup the system for SD/MM from scratch"/>
-												<Text text="* Worked on SPRO/WLFA settings"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text text="* Well aware of the functional flow of SD,MM and FI"/>
+											<Text text="* Worked on objects of SNC,APO,PI and BW"/>
+											<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
+											<Text text="* Currently working on SM(Settlement Management)"/>
+											<Text text="* Can setup the system for SD/MM from scratch"/>
+											<Text text="* Worked on SPRO/WLFA settings"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
 							<uxap:ObjectPageSection titleUppercase="false" title="Experience">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="SAP Labs" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text text="Nov'16 to Present" class="myTextSize"/>
-												<Text text=""/>
-												<Text text="Worked in Byd team"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text text="Nov'16 to Present" class="myTextSize"/>
+											<Text text=""/>
+											<Text text="Worked in Byd team"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Shell Petroleum" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text text="July'16 to Nov'16" class="myTextSize"/>
-												<Text text=""/>
-												<Text text="Worked in GSAP team"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text text="July'16 to Nov'16" class="myTextSize"/>
+											<Text text=""/>
+											<Text text="Worked in GSAP team"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Accenture" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text text="Jul'12 to Nov'16" class="myTextSize"/>
-												<Text text=""/>
-												<Text text="Worked in AbInbev and U2K2 projects"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text text="Jul'12 to Nov'16" class="myTextSize"/>
+											<Text text=""/>
+											<Text text="Worked in AbInbev and U2K2 projects"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
@@ -266,53 +266,97 @@
 										</Table>
 									</uxap:ObjectPageSubSection >
 									<uxap:ObjectPageSubSection title="Educational Project" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text
-													text="* Training with BSNL from Dec 2010 to Jan 2011. The training gave an insight of how the telecommunication happens practically in our day to day life via electronic media. "/>
-												<Text text="* Microcontroller 8051 training in June 2011 with IETE (Institute of electronics and telecommunication engineers)."/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text
+												text="* Training with BSNL from Dec 2010 to Jan 2011. The training gave an insight of how the telecommunication happens practically in our day to day life via electronic media. "/>
+											<Text text="* Microcontroller 8051 training in June 2011 with IETE (Institute of electronics and telecommunication engineers)."/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
 							<uxap:ObjectPageSection titleUppercase="false" title="Current Status">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Current Company" titleUppercase="false">
-										<uxap:blocks >
-											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
-											<VBox>
-												<Text text="* Currently working in SAP Labs"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks >-->
+										<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
+										<VBox>
+											<Text text="* Currently working in SAP Labs"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Work" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<VBox>
-												<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
-												<Text text="* Working on eDocuments for settlement management"/>
-												<Text text="* Setup a new system for SD and FI edocuments"/>
-											</VBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<VBox>
+											<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
+											<Text text="* Working on eDocuments for settlement management"/>
+											<Text text="* Setup a new system for SD and FI edocuments"/>
+										</VBox>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Location" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Notice Period" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<Text text="* Notice Period is 60 days"/>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<!--<uxap:blocks>-->
+										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+										<Text text="* Notice Period is 60 days"/>
+										<!--</forms:SimpleForm>-->
+										<!--</uxap:blocks>-->
+									</uxap:ObjectPageSubSection>
+								</uxap:subSections>
+							</uxap:ObjectPageSection>
+							<uxap:ObjectPageSection titleUppercase="false" title="Miscellaneous">
+								<uxap:subSections>
+									<uxap:ObjectPageSubSection title="Extra Curricular Activities" titleUppercase="false">
+										<VBox>
+											
+											<Text text="* Participated in the Organizing committees in school/Accenture."/>
+											<Text text="* Participated in various Sports activities."/>
+											<Text text="* Participated in GK Quizzes’ and Mathematics competitions on school/district level."/>
+											<Text text="* Leading member of sports/cultural fest organizing team in Accenture."/>
+											<Text text="* Active member of corporate social responsibility team in Accenture."/>
+										</VBox>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Achievements" titleUppercase="false">
+										<VBox>
+											
+											<Text text="* 3rd rank in district level mega quiz competition held in 2002"/>
+											<Text text="* Prize winner in ROTA mathematics contest held in 200 by ROTRACT club of Biharsharif, Nalanda."/>
+											<Text text="* All time class topper and school representative throughout school life."/>
+											<Text text="* Received value creator awards in successive fiscal years in Accenture."/>
+											<Text text="* Catalyst in SAP Labs."/>
+										</VBox>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Hobbies" titleUppercase="false">
+										<VBox>
+											<Text text="* Travelling and Photgraphy"/>
+											<Text text="* Watching movies"/>
+										</VBox>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Personal Dossier" titleUppercase="false">
+										<VBox>
+											<Text text="* Date of Birth: 15th July 1991"/>
+											<Text text="* Language known: English, Hindi, Urdu, Bangla."/>
+										</VBox>
+									</uxap:ObjectPageSubSection>
+									<uxap:ObjectPageSubSection title="Declaration" titleUppercase="false">
+										<VBox>
+											<Text
+												text="I hereby declare that the above furnished information is true to my best of knowledge and expecting a positive reply under your kind consideration."/>
+											<Text text="Place : Bangalore"/>
+											<Text text="Signature : Md Saddam Kazmi"/>
+										</VBox>
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
