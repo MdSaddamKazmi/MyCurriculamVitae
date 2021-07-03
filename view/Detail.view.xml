@@ -1,0 +1,17 @@
+<mvc:View controllerName="my.Test.controller.Detail" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" height="100%">
+	<App>
+		<Page navButtonPress="onNavBack" showNavButton="true" class="myColor sapUiresponsiveMargin">
+			<content>
+				<ScrollContainer height="100%" width="100%" horizontal="true" vertical="true">
+					<FlexBox direction="Column" renderType="Div" class="sapUiSmallMargin">
+						<PDFViewer source="{/Source}" title="My CV" height="1000px" >
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+						</PDFViewer>
+					</FlexBox>
+				</ScrollContainer>
+			</content>
+		</Page>
+	</App>
+</mvc:View>
