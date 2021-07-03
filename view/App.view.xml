@@ -1,6 +1,6 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout" xmlns:uxap="sap.uxap"
 	xmlns:forms="sap.ui.layout.form" xmlns:microchart="sap.suite.ui.microchart" xmlns:viz="sap.viz.ui5.controls"
-	controllerName="my.Test.controller.App" height="100%">
+	controllerName="my.Test.controller.App" height="100%" xmlns:viz.data="sap.viz.ui5.data" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds">
 	<Shell>
 		<App id="App">
 			<pages>
@@ -111,40 +111,65 @@
 									<uxap:ObjectPageSubSection title="Personal Skills" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
-												<!--<Label text="Country"/>-->
-												<VBox>
-													<Text text="* Goal Oriented"/>
-													<Text text="* Able to perform under pressure "/>
-													<Text text="* Capable to learn new technology very fast"/>
-													<Text text="* Have strong analytical problem solving abilities"/>
-													<Text text="* Strong Team Player with excellent skills to handle a team"/>
-													<Text text="* An effective communicator"/>
-												</VBox>
-												<!--<Label text="Subsidiary"/>-->
-												<!--<Text text="SAP France"/>-->
+											<!--<Label text="Country"/>-->
+											<VBox>
+												<Text text="* Goal Oriented"/>
+												<Text text="* Able to perform under pressure "/>
+												<Text text="* Capable to learn new technology very fast"/>
+												<Text text="* Have strong analytical problem solving abilities"/>
+												<Text text="* Strong Team Player with excellent skills to handle a team"/>
+												<Text text="* An effective communicator"/>
+											</VBox>
+											<!--<Label text="Subsidiary"/>-->
+											<!--<Text text="SAP France"/>-->
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
+									<!--<uxap:ObjectPageSubSection title="Technical Skills" titleUppercase="false">-->
+									<!--<uxap:blocks>-->
+									<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
+									<!--	<FlexBox justifyContent="Center" class="responsive ">-->
+									<!--		<viz:VizFrame xmlns="sap.viz" id="idcolumn" class="responsive"-->
+									<!--			vizProperties="{ title: {text : 'Knowledge of Technical Skills', visible : true}}"></viz:VizFrame>-->
+									<!--	</FlexBox>-->
+									<!--</forms:SimpleForm>-->
+									<!--</uxap:blocks>-->
+									<!--</uxap:ObjectPageSubSection>-->
 									<uxap:ObjectPageSubSection title="Technical Skills" titleUppercase="false">
-										<uxap:blocks>
-											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-											<FlexBox justifyContent="Center" class="responsive ">
-												<viz:VizFrame xmlns="sap.viz" id="idcolumn" vizProperties="{ title: {text : 'Knowledge of Technical Skills', visible : true}}"></viz:VizFrame>
-											</FlexBox>
-											<!--</forms:SimpleForm>-->
-										</uxap:blocks>
+										<l:FixFlex id='chartFixFlex' minFlexSize="550">
+											<l:flexContent>
+												<viz:Popover id="idPopOver"></viz:Popover>
+												<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" vizType='column' width="auto"
+													vizProperties="{title: {text: 'Knowledge of Technical Skills'}}">
+													<viz:dataset>
+														<viz.data:FlattenedDataset data="{/Skills}">
+															<viz.data:dimensions>
+																<viz.data:DimensionDefinition name="Technical Skill" value="{Technical_Skill}"/>
+															</viz.data:dimensions>
+															<viz.data:measures>
+																<viz.data:MeasureDefinition name="Knowledge Percentage" value="{Value}"/>
+															</viz.data:measures>
+														</viz.data:FlattenedDataset>
+													</viz:dataset>
+													<viz:feeds>
+														<viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure" values="Knowledge Percentage"/>
+														<viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis" type="Dimension" values="Technical Skill"/>
+													</viz:feeds>
+												</viz:VizFrame>
+											</l:flexContent>
+										</l:FixFlex>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Functional Skills" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<VBox>
-													<Text text="* Well aware of the functional flow of SD,MM and FI"/>
-													<Text text="* Worked on objects of SNC,APO,PI and BW"/>
-													<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
-													<Text text="* Currently working on SM(Settlement Management)"/>
-													<Text text="* Can setup the system for SD/MM from scratch"/>
-													<Text text="* Worked on SPRO/WLFA settings"/>
-												</VBox>
+											<VBox>
+												<Text text="* Well aware of the functional flow of SD,MM and FI"/>
+												<Text text="* Worked on objects of SNC,APO,PI and BW"/>
+												<Text text="* Worked on ByD-SRM/SCM/FIN/CRM/PRO "/>
+												<Text text="* Currently working on SM(Settlement Management)"/>
+												<Text text="* Can setup the system for SD/MM from scratch"/>
+												<Text text="* Worked on SPRO/WLFA settings"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
@@ -155,33 +180,33 @@
 									<uxap:ObjectPageSubSection title="SAP Labs" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<VBox>
-													<Text text="Nov'16 to Present" class="myTextSize"/>
-													<Text text=""/>
-													<Text text="Worked in Byd team"/>
-												</VBox>
+											<VBox>
+												<Text text="Nov'16 to Present" class="myTextSize"/>
+												<Text text=""/>
+												<Text text="Worked in Byd team"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Shell Petroleum" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<VBox>
-													<Text text="July'16 to Nov'16" class="myTextSize"/>
-													<Text text=""/>
-													<Text text="Worked in GSAP team"/>
-												</VBox>
+											<VBox>
+												<Text text="July'16 to Nov'16" class="myTextSize"/>
+												<Text text=""/>
+												<Text text="Worked in GSAP team"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Accenture" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<VBox>
-													<Text text="Jul'12 to Nov'16" class="myTextSize"/>
-													<Text text=""/>
-													<Text text="Worked in AbInbev and U2K2 projects"/>
-												</VBox>
+											<VBox>
+												<Text text="Jul'12 to Nov'16" class="myTextSize"/>
+												<Text text=""/>
+												<Text text="Worked in AbInbev and U2K2 projects"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
@@ -258,34 +283,34 @@
 									<uxap:ObjectPageSubSection title="Current Company" titleUppercase="false">
 										<uxap:blocks >
 											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
-												<VBox>
-													<Text text="* Currently working in SAP Labs"/>
-												</VBox>
+											<VBox>
+												<Text text="* Currently working in SAP Labs"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Work" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<VBox>
-													<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
-													<Text text="* Working on eDocuments for settlement management"/>
-													<Text text="* Setup a new system for SD and FI edocuments"/>
-												</VBox>
+											<VBox>
+												<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
+												<Text text="* Working on eDocuments for settlement management"/>
+												<Text text="* Setup a new system for SD and FI edocuments"/>
+											</VBox>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Location" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
+											<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Notice Period" titleUppercase="false">
 										<uxap:blocks>
 											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
-												<Text text="* Notice Period is 60 days"/>
+											<Text text="* Notice Period is 60 days"/>
 											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
