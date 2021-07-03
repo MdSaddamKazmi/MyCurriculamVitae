@@ -110,7 +110,7 @@
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Personal Skills" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="HorizontalLayout">
+											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
 												<!--<Label text="Country"/>-->
 												<VBox>
 													<Text text="* Goal Oriented"/>
@@ -122,7 +122,7 @@
 												</VBox>
 												<!--<Label text="Subsidiary"/>-->
 												<!--<Text text="SAP France"/>-->
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Technical Skills" titleUppercase="false">
@@ -136,7 +136,7 @@
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Functional Skills" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<VBox>
 													<Text text="* Well aware of the functional flow of SD,MM and FI"/>
 													<Text text="* Worked on objects of SNC,APO,PI and BW"/>
@@ -145,7 +145,7 @@
 													<Text text="* Can setup the system for SD/MM from scratch"/>
 													<Text text="* Worked on SPRO/WLFA settings"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
@@ -154,35 +154,35 @@
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="SAP Labs" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<VBox>
-													<Text text="July'12 to Jun'16" class="myTextSize"/>
+													<Text text="Nov'16 to Present" class="myTextSize"/>
 													<Text text=""/>
 													<Text text="Worked in Byd team"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Shell Petroleum" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<VBox>
 													<Text text="July'16 to Nov'16" class="myTextSize"/>
 													<Text text=""/>
 													<Text text="Worked in GSAP team"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Accenture" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<VBox>
-													<Text text="Nov'16 to Present" class="myTextSize"/>
+													<Text text="Jul'12 to Nov'16" class="myTextSize"/>
 													<Text text=""/>
 													<Text text="Worked in AbInbev and U2K2 projects"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
@@ -257,36 +257,36 @@
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Current Company" titleUppercase="false">
 										<uxap:blocks >
-											<forms:SimpleForm editable="false" layout="HorizontalLayout">
+											<!--<forms:SimpleForm editable="false" layout="HorizontalLayout">-->
 												<VBox>
 													<Text text="* Currently working in SAP Labs"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Work" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<VBox>
 													<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
 													<Text text="* Working on eDocuments for settlement management"/>
 													<Text text="* Setup a new system for SD and FI edocuments"/>
 												</VBox>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Location" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<Text text="* Currently working from home due to pandemic but base location is Bangalore"/>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 									<uxap:ObjectPageSubSection title="Current Notice Period" titleUppercase="false">
 										<uxap:blocks>
-											<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 												<Text text="* Notice Period is 60 days"/>
-											</forms:SimpleForm>
+											<!--</forms:SimpleForm>-->
 										</uxap:blocks>
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
