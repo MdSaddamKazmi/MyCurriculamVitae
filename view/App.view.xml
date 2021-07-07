@@ -60,23 +60,37 @@
 							<!--	<Text id="text4" wrappingType="Hyphenated"-->
 							<!--		text="To use the UI5 features in your web page, you have to load and initialize – or bootstrap – the UI5 runtime in your HTML page."/>-->
 							<!--</l:BlockLayoutCell>-->
-						</l:BlockLayoutRow>
-					</l:BlockLayout>
-					<l:BlockLayout id="BlockLayout1" background="Dashboard">
-						<l:BlockLayoutRow>
-							<l:BlockLayoutCell title="Personal Details:">
+							
+								<l:BlockLayoutCell title="Personal Details:">
 								<FlexBox justifyContent="Start" class="responsive" alignItems="Center">
-									<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
-										<FlexBox justifyContent="Start" class="responsive ">
-											<Text
-												text="I have total 9 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade and support projects."/>
+								<l:VerticalLayout class="sapUiSmallMarginBeginEnd">
+									<FlexBox justifyContent="Start" class="responsive ">
+										<Text
+										text="I have total 9 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade and support projects."/>
 										</FlexBox>
-										<!--<FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>-->
-									</l:VerticalLayout>
-								</FlexBox>
-							</l:BlockLayoutCell>
+								      	 <FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>
+							          </l:VerticalLayout>
+						               </FlexBox>
+						             </l:BlockLayoutCell>
+							
+							
 						</l:BlockLayoutRow>
 					</l:BlockLayout>
+					<!-- <l:BlockLayout id="BlockLayout1" background="Dashboard"> -->
+					<!--	<l:BlockLayoutRow> -->
+						<!--	<l:BlockLayoutCell title="Personal Details:"> -->
+							<!--	<FlexBox justifyContent="Start" class="responsive" alignItems="Center"> -->
+								<!--	<l:VerticalLayout class="sapUiSmallMarginBeginEnd"> -->
+									<!--	<FlexBox justifyContent="Start" class="responsive "> -->
+										<!--	<Text-->
+											<!--	text="I have total 9 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade and support projects."/>-->
+									<!--	</FlexBox> -->
+								      		<!--<FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>-->
+								<!--	</l:VerticalLayout> -->
+							<!--	</FlexBox>-->
+						<!--	</l:BlockLayoutCell>-->
+						<!--</l:BlockLayoutRow>-->
+					<!--</l:BlockLayout>-->
 					<!--<Text text="Saddam"/>-->
 					<!--</Panel>-->
 					<!--<Panel>-->
