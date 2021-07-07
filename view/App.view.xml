@@ -67,8 +67,7 @@
 									<FlexBox justifyContent="Start" class="responsive ">
 										<Text
 										text="I have total 9 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade and support projects."/>
-										</FlexBox>
-								      	 <FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>
+										</FlexBox>								      
 							          </l:VerticalLayout>
 						               </FlexBox>
 						             </l:BlockLayoutCell>
