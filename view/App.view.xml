@@ -99,7 +99,7 @@
 					<!--<Text text="Saddam"/>-->
 					<!--</Panel>-->
 					<!--<Panel>-->
-					<uxap:ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" navigate=".onChange">
+					<uxap:ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false" navigate=".onChange" class="myColor">
 						<!--<uxap:headerTitle>-->
 						<!--	<uxap:ObjectPageDynamicHeaderTitle>-->
 						<!--		<uxap:expandedHeading>-->
@@ -124,8 +124,8 @@
 						<!--<content>-->
 						<!--</Panel>-->
 						<!--</uxap:headerContent>-->
-						<uxap:sections>
-							<uxap:ObjectPageSection id="Skills" titleUppercase="false" title="Skills ">
+						<uxap:sections >
+							<uxap:ObjectPageSection id="Skills" titleUppercase="false" title="Skills" class="myDisplay">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Personal Skills" titleUppercase="false">
 										<!--<uxap:blocks>-->
@@ -194,13 +194,13 @@
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
-							<uxap:ObjectPageSection id="Experience" titleUppercase="false" title="Experience">
+							<uxap:ObjectPageSection id="Experience" titleUppercase="false" title="Experience" class="myDisplay">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="SAP Labs" titleUppercase="false">
 										<!--<uxap:blocks>-->
 										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 										<VBox>
-											<Text text="Nov'16 to Present" class="myTextSize"/>
+											<Text text="Nov'16 to Present" />
 											<Text text=""/>
 											<Text text="Worked in Byd team"/>
 										</VBox>
@@ -211,7 +211,7 @@
 										<!--<uxap:blocks>-->
 										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 										<VBox>
-											<Text text="July'16 to Nov'16" class="myTextSize"/>
+											<Text text="July'16 to Nov'16" />
 											<Text text=""/>
 											<Text text="Worked in GSAP team"/>
 										</VBox>
@@ -222,7 +222,7 @@
 										<!--<uxap:blocks>-->
 										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 										<VBox>
-											<Text text="Jul'12 to Nov'16" class="myTextSize"/>
+											<Text text="Jul'12 to Nov'16" />
 											<Text text=""/>
 											<Text text="Worked in AbInbev and U2K2 projects"/>
 										</VBox>
@@ -231,7 +231,7 @@
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
-							<uxap:ObjectPageSection id="Education" titleUppercase="false" title="Education">
+							<uxap:ObjectPageSection id="Education" titleUppercase="false" title="Education" class="myDisplay">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Educational Marks">
 										<Table items="{mark>/Marks}">
@@ -297,7 +297,7 @@
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
-							<uxap:ObjectPageSection id="Current_Status" titleUppercase="false" title="Current Status">
+							<uxap:ObjectPageSection id="Current_Status" titleUppercase="false" title="Current Status" class="myDisplay">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Current Company" titleUppercase="false">
 										<!--<uxap:blocks >-->
@@ -335,7 +335,7 @@
 									</uxap:ObjectPageSubSection>
 								</uxap:subSections>
 							</uxap:ObjectPageSection>
-							<uxap:ObjectPageSection id="Misc" titleUppercase="false" title="Miscellaneous">
+							<uxap:ObjectPageSection id="Misc" titleUppercase="false" title="Miscellaneous" class="myDisplay">
 								<uxap:subSections>
 									<uxap:ObjectPageSubSection title="Extra Curricular Activities" titleUppercase="false">
 										<VBox>
@@ -349,7 +349,7 @@
 									<uxap:ObjectPageSubSection title="Achievements" titleUppercase="false">
 										<VBox>
 											<Text text="* 3rd rank in district level mega quiz competition held in 2002"/>
-											<Text text="* Prize winner in ROTA mathematics contest held in 200 by ROTRACT club of Biharsharif, Nalanda."/>
+											<Text text="* Prize winner in ROTA mathematics contest held in 2005 by ROTRACT club of Biharsharif, Nalanda."/>
 											<Text text="* All time class topper and school representative throughout school life."/>
 											<Text text="* Received value creator awards in successive fiscal years in Accenture."/>
 											<Text text="* Catalyst in SAP Labs."/>
