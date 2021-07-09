@@ -97,7 +97,7 @@
 					<!--<Text text="Saddam"/>-->
 					<!--</Panel>-->
 					<!--<Panel>-->
-					<uxap:ObjectPageLayout id="ObjectPageLayout" selectedSection="Experience" upperCaseAnchorBar="false" navigate=".onChange">
+					<uxap:ObjectPageLayout id="ObjectPageLayout"  upperCaseAnchorBar="false" navigate=".onChange">
 						<!--<uxap:headerTitle>-->
 						<!--	<uxap:ObjectPageDynamicHeaderTitle>-->
 						<!--		<uxap:expandedHeading>-->
