@@ -9,3 +9,8 @@
  font-weight: bold;
 	
 }
+
+
+.sapMPage>section.sapMPageEnableScrolling {
+	display: contents;
+}
