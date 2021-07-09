@@ -15,11 +15,20 @@ sap.ui.define([
 
 		onDisplayCV: function (oEvent) {
 
-		// 	this._Dialog = sap.ui.xmlfragment("my.Test.view.HelloDialog", this);
-		// 	this._Dialog.open();
-		
+			// 	this._Dialog = sap.ui.xmlfragment("my.Test.view.HelloDialog", this);
+			// 	this._Dialog.open();
+
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.navTo("detail");
+
+		},
+
+		onChange: function (oEvent) {
+
+			// 	this._Dialog = sap.ui.xmlfragment("my.Test.view.HelloDialog", this);
+			// 	this._Dialog.open();
+
+			var name = this.getView().byId("ObjectPageLayout").getSelectedSection();
 
 		},
 
