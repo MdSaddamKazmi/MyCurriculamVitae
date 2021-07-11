@@ -54,9 +54,12 @@ sap.ui.define([
 					}, {
 						"Technical_Skill": "FIORI/UI5",
 						"Value": "80"
-					}, {
+					},{
+						"Technical_Skill": "BOPF",
+						"Value": "80"
+					},{
 						"Technical_Skill": "RAP",
-						"Value": "95"
+						"Value": "80"
 					}
 
 				]
