@@ -314,6 +314,7 @@
 										<!--<forms:SimpleForm editable="false" layout="ColumnLayout">-->
 										<VBox>
 											<Text text="* Created a UI5 app to check the Covid Vaccine Availability"/>
+											<Text text="* Worked on BUPA fiori apps"/>
 											<Text text="* Working on eDocuments for settlement management"/>
 											<Text text="* Setup a new system for SD and FI edocuments"/>
 										</VBox>
