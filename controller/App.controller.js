@@ -46,7 +46,7 @@ sap.ui.define([
 						"Technical_Skill": "OO_ABAP",
 						"Value": "90"
 					}, {
-						"Technical_Skill": "WEBDYNPRO,
+						"Technical_Skill": "WEBDYNPRO",
 						"Value": "90"
 					}, {
 						"Technical_Skill": "ABAP ON HANA",
