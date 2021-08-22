@@ -64,6 +64,7 @@ sap.ui.define([
 						"Technical_Skill": "RAP",
 						"Value": "80"
 					}
+					 
 
 				]
 
