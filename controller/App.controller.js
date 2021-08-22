@@ -40,20 +40,23 @@ sap.ui.define([
 
 			var oModel1 = new sap.ui.model.json.JSONModel({
 				Skills: [{
-						"Technical_Skill": "OO_ABAP",
-						"Value": "90"
-					}, {
 						"Technical_Skill": "ABAP",
 						"Value": "90"
 					}, {
+						"Technical_Skill": "OO_ABAP",
+						"Value": "90"
+					}, {
+						"Technical_Skill": "WEBDYNPRO,
+						"Value": "90"
+					}, {
 						"Technical_Skill": "ABAP ON HANA",
-						"Value": "80"
+						"Value": "90"
 					}, {
 						"Technical_Skill": "CDS",
 						"Value": "85"
 					}, {
 						"Technical_Skill": "FIORI/UI5",
-						"Value": "80"
+						"Value": "90"
 					},{
 						"Technical_Skill": "BOPF",
 						"Value": "80"
