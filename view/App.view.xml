@@ -71,7 +71,7 @@
 													<Text
 														text="I have total 10 years of work experience in SAP ABAP, OOPS-ABAP, ABAP ON HANA, BOPF, ODATA, Gateway, CDS views, RAP, FIORI ELEMENTS and SAP UI5/FIORI with functional knowledge of SD , MM , FI and SM. Currently working with SAP Labs as an S4 HANA developer in Settlement Mangement team. I have exposure to implementation, upgrade, support and post production maintenance projects."/>
 													<Text text=""/>
-													<Text text="Notice Period : 60 days"/>
+													<!--<Text text="Notice Period : 60 days"/>-->
 												</VBox>
 											</FlexBox>
 											<!--<FlexBox justifyContent="Center" class="responsive"><Text text="saddamkazmi25@gmail.com"/></FlexBox>-->
